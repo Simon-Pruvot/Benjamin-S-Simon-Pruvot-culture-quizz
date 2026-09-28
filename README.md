@@ -83,5 +83,5 @@ copy .env.example .env
 
 | Membre | Rôle |
 |---|---|
-| Simon Pruvot | Back : base MySQL, seeder, API Laravel, export de la base |
-| Benjamin Serrure | Front : charte graphique, pages et composants React, mobile first |
+| Benjamin Serrure | Back : base MySQL, seeder, API Laravel, export de la base |
+| Simon Pruvot | Front : charte graphique, pages et composants React, mobile first |
