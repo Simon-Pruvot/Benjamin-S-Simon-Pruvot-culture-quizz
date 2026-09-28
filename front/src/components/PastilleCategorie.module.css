@@ -1,0 +1,23 @@
+.pastille {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: var(--rayon-pilule);
+  background: var(--cat-soft);
+}
+
+.carre {
+  display: block;
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  background: var(--cat-accent);
+}
+
+.nom {
+  color: var(--cat-ink);
+  font-size: 13px;
+  font-weight: 600;
+}

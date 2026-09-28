@@ -1,0 +1,23 @@
+.banniere {
+  padding: 14px 16px;
+  border-radius: var(--rayon-m);
+  font-size: 14px;
+  line-height: 1.45;
+  animation: cqIn 0.25s ease both;
+}
+
+.juste {
+  background: var(--vert-fond);
+  color: var(--vert-encre);
+}
+
+.fausse {
+  background: var(--rouge-fond);
+  color: var(--rouge-encre);
+}
+
+/* Question non jouée : ni juste, ni fausse. Donc ni vert, ni rouge. */
+.tempsEcoule {
+  background: var(--neutre-fond);
+  color: var(--neutre-encre);
+}

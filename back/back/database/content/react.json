@@ -1,0 +1,85 @@
+{
+  "categorie": {
+    "nom": "React",
+    "slug": "react",
+    "icone": "Atom",
+    "couleur": "#61DAFB"
+  },
+  "questions": [
+    {
+      "intitule": "Quel hook permet de déclarer une variable d'état local dans un composant fonctionnel ?",
+      "bonne": "useState",
+      "mauvaises": ["useEffect", "useContext", "useReducer", "useRef", "useMemo", "useCallback", "useLayoutEffect", "useImperativeHandle", "useDeferredValue"]
+    },
+    {
+      "intitule": "Quel hook permet d'exécuter un effet de bord après le rendu d'un composant ?",
+      "bonne": "useEffect",
+      "mauvaises": ["useState", "useMemo", "useCallback", "useRef", "useContext", "useReducer", "useId", "useTransition", "useSyncExternalStore"]
+    },
+    {
+      "intitule": "À quoi sert la prop key dans une liste d'éléments ?",
+      "bonne": "À aider React à identifier quels éléments ont changé, été ajoutés ou supprimés",
+      "mauvaises": ["À définir l'ordre d'affichage des éléments", "À trier automatiquement la liste", "À rendre chaque élément cliquable", "À stocker la valeur de l'élément dans le state", "À générer un identifiant unique en base de données", "À empêcher le re-rendu de la liste entière", "À associer un raccourci clavier à l'élément", "À définir la profondeur de l'élément dans l'arbre", "À mémoriser la position de défilement de la liste"]
+    },
+    {
+      "intitule": "Que renvoie l'appel à useState ?",
+      "bonne": "Un tableau de deux éléments : la valeur courante et sa fonction de mise à jour",
+      "mauvaises": ["Un objet contenant la valeur courante et sa fonction de mise à jour", "Uniquement la valeur courante", "Uniquement la fonction de mise à jour", "Une promesse résolue avec la valeur courante", "Un tableau de trois éléments : valeur, setter et valeur précédente", "Une référence mutable vers la valeur", "Un objet de la forme { current: valeur }", "Une fonction qui renvoie la valeur courante", "Un tableau de deux éléments : la valeur précédente et la nouvelle"]
+    },
+    {
+      "intitule": "Comment s'appelle l'extension de syntaxe que React utilise pour décrire l'interface ?",
+      "bonne": "JSX",
+      "mauvaises": ["HTMX", "XHTML", "JSS", "ESX", "JSTL", "XAML", "JSP", "XSL", "HAML"]
+    },
+    {
+      "intitule": "Dans quel sens les données circulent-elles entre composants React par défaut ?",
+      "bonne": "Du parent vers l'enfant",
+      "mauvaises": ["De l'enfant vers le parent", "Dans les deux sens simultanément", "Directement entre composants frères", "Du DOM vers le composant", "Depuis un store global vers chaque composant", "Dans l'ordre de déclaration des composants", "De façon circulaire dans l'arbre", "De l'enfant vers le parent puis redescend", "Du composant le plus profond vers la racine"]
+    },
+    {
+      "intitule": "Quel hook conserve une valeur mutable entre les rendus sans déclencher de re-rendu ?",
+      "bonne": "useRef",
+      "mauvaises": ["useState", "useMemo", "useCallback", "useEffect", "useContext", "useReducer", "useId", "useLayoutEffect", "useTransition"]
+    },
+    {
+      "intitule": "Comment nettoie-t-on un effet déclaré dans useEffect ?",
+      "bonne": "En retournant une fonction depuis le callback passé à useEffect",
+      "mauvaises": ["En appelant useEffect.cleanup()", "En passant une seconde fonction en argument", "En utilisant le hook useCleanup()", "En retournant null depuis le callback", "En appelant clearEffect()", "En déclarant un second useEffect inverse", "En passant l'option cleanup à true", "En utilisant le hook useUnmount()", "En définissant componentWillUnmount()"]
+    },
+    {
+      "intitule": "Que signifie un tableau de dépendances vide passé en second argument de useEffect ?",
+      "bonne": "L'effet ne s'exécute qu'une seule fois, après le premier rendu",
+      "mauvaises": ["L'effet s'exécute après chaque rendu", "L'effet ne s'exécute jamais", "L'effet s'exécute avant le premier rendu", "L'effet s'exécute à chaque changement d'état", "L'effet s'exécute uniquement au démontage", "L'effet s'exécute deux fois par rendu", "L'effet s'exécute de façon synchrone", "L'effet s'exécute uniquement si le composant est visible", "L'effet s'exécute à intervalle régulier"]
+    },
+    {
+      "intitule": "Quelle bibliothèque est le standard de fait pour gérer le routing dans une application React ?",
+      "bonne": "React Router",
+      "mauvaises": ["Vue Router", "Angular Router", "Express Router", "React Navigate", "React Path", "Router.js", "React Link", "React Switch", "React Route"]
+    },
+    {
+      "intitule": "Comment un composant enfant transmet-il une information à son composant parent ?",
+      "bonne": "En appelant une fonction que le parent lui a passée en prop",
+      "mauvaises": ["En modifiant directement le state du parent", "En appelant this.parent.setState()", "En retournant une valeur depuis son rendu", "En émettant un événement avec emit()", "En passant une prop vers le haut", "En important le state du parent", "En utilisant le hook useParent()", "En écrivant directement dans le DOM", "En appelant window.parent"]
+    },
+    {
+      "intitule": "Quelle est la règle fondamentale concernant l'appel des hooks ?",
+      "bonne": "Ils doivent être appelés au niveau racine du composant, jamais dans une condition ou une boucle",
+      "mauvaises": ["Ils doivent obligatoirement être appelés dans une condition", "Ils doivent être appelés à l'intérieur d'un useEffect", "Ils peuvent être appelés depuis n'importe où", "Ils doivent être appelés dans l'ordre alphabétique", "Ils doivent être appelés après le return", "Ils ne peuvent être appelés qu'une fois par fichier", "Ils doivent être appelés dans une boucle", "Ils doivent être appelés depuis une fonction classique", "Ils doivent être appelés dans le constructeur"]
+    },
+    {
+      "intitule": "Quel hook permet de partager une donnée sans la passer de prop en prop ?",
+      "bonne": "useContext",
+      "mauvaises": ["useState", "useEffect", "useRef", "useMemo", "useReducer", "useCallback", "useId", "useSyncExternalStore", "useDebugValue"]
+    },
+    {
+      "intitule": "Que fait useMemo ?",
+      "bonne": "Il mémorise le résultat d'un calcul et ne le recalcule que si ses dépendances changent",
+      "mauvaises": ["Il mémorise une fonction pour lui garder la même identité entre les rendus", "Il conserve une valeur entre les rendus sans déclencher de re-rendu", "Il stocke la valeur dans le localStorage", "Il empêche le composant de se re-rendre", "Il met en cache les requêtes réseau", "Il mémorise l'état précédent du composant", "Il diffère un calcul après le rendu", "Il exécute un calcul avant le premier rendu", "Il partage un calcul entre plusieurs composants"]
+    },
+    {
+      "intitule": "Que se passe-t-il lorsqu'on appelle la fonction de mise à jour d'un state ?",
+      "bonne": "React planifie un nouveau rendu du composant",
+      "mauvaises": ["La valeur est modifiée immédiatement et le rendu est synchrone", "Le composant est démonté puis remonté", "Toute l'application est re-rendue", "Le DOM est directement modifié", "Le composant parent est re-rendu", "Rien tant qu'on n'appelle pas forceUpdate()", "La page est rechargée", "Le state est écrit dans le localStorage", "Le rendu est bloqué jusqu'à la fin de la mise à jour"]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+/* Identique pour les quatre propositions : rien dans le DOM ne distingue
+   la bonne réponse avant le clic. */
+.reponse {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 17px 18px;
+  border-radius: var(--rayon-m);
+  background: var(--surface-douce);
+  color: var(--encre-forte);
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.35;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    opacity 0.2s ease,
+    transform 0.16s ease;
+}
+
+.reponse:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.reponse:disabled {
+  cursor: default;
+}
+
+.badge {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: var(--rayon-s);
+  background: var(--badge-neutre);
+  color: var(--encre-douce);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.libelle {
+  min-width: 0;
+}
+
+/* Montrée même en cas d'erreur : c'est ce qui fait apprendre. */
+.correcte {
+  background: var(--vert-fond);
+  color: var(--vert-encre);
+  font-weight: 600;
+}
+
+.correcte .badge {
+  background: var(--vert-plein);
+  color: var(--sur-vert);
+}
+
+.fausse {
+  background: var(--rouge-fond);
+  color: var(--rouge-encre);
+  font-weight: 600;
+}
+
+.fausse .badge {
+  background: var(--rouge-plein);
+  color: var(--sur-rouge);
+}
+
+/* En retrait, pour laisser le vert et le rouge seuls à l'écran. */
+.effacee {
+  opacity: 0.45;
+}

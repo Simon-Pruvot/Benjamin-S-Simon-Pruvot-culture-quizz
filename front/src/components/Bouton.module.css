@@ -1,0 +1,56 @@
+.bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  /* Cible tactile. */
+  min-height: var(--cible-tactile);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+/* Un seul aplat d'encre par écran. */
+.principal {
+  padding: 14px 24px;
+  border-radius: var(--rayon-bouton);
+  background: var(--encre);
+  color: var(--fond);
+  font-size: 15px;
+  font-weight: 600;
+  transition: opacity 0.18s ease;
+}
+
+.principal:hover {
+  opacity: 0.85;
+}
+
+.secondaire {
+  padding: 14px 24px;
+  border-radius: var(--rayon-bouton);
+  background: var(--surface-douce);
+  color: var(--encre-moyenne);
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 0.18s ease;
+}
+
+.secondaire:hover {
+  background: var(--surface-appuyee);
+}
+
+/* Quitter, Retour. */
+.discret {
+  padding: 8px 12px;
+  border-radius: var(--rayon-chip);
+  background: var(--surface-douce);
+  color: var(--encre-douce);
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.18s ease;
+}
+
+.discret:hover {
+  background: var(--surface-appuyee);
+}

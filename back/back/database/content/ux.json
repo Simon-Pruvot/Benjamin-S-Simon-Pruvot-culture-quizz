@@ -1,0 +1,85 @@
+{
+  "categorie": {
+    "nom": "UX",
+    "slug": "ux",
+    "icone": "Compass",
+    "couleur": "#F59E0B"
+  },
+  "questions": [
+    {
+      "intitule": "Que signifie le sigle UX ?",
+      "bonne": "User Experience",
+      "mauvaises": ["User Extension", "Universal Experience", "User Exchange", "Unified Experience", "User Execution", "Ultimate Experience", "User Examination", "Universal Exchange", "User Expression"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'un persona en UX ?",
+      "bonne": "Un profil fictif qui représente un type d'utilisateur cible",
+      "mauvaises": ["Un vrai client interrogé pendant un test", "Un membre de l'équipe de développement", "Un compte administrateur de l'application", "Un avatar affiché dans l'interface", "Un pseudonyme choisi par l'utilisateur", "Un scénario de test automatisé", "Un questionnaire envoyé aux utilisateurs", "Une maquette de page d'inscription", "Un rôle défini dans la base de données"]
+    },
+    {
+      "intitule": "À quoi sert un wireframe ?",
+      "bonne": "À représenter la structure d'une page sans se préoccuper du style final",
+      "mauvaises": ["À définir la palette de couleurs du site", "À écrire le code HTML de la page", "À tester la vitesse de chargement", "À rédiger le contenu textuel définitif", "À choisir les polices du projet", "À créer les animations de l'interface", "À configurer le serveur d'hébergement", "À dessiner le logo de la marque", "À traduire l'interface en plusieurs langues"]
+    },
+    {
+      "intitule": "En quoi consiste un test utilisateur ?",
+      "bonne": "Observer de vrais utilisateurs accomplir des tâches sur le produit",
+      "mauvaises": ["Vérifier automatiquement que le code ne contient pas d'erreur", "Demander à l'équipe de développement de relire le code", "Mesurer le temps de réponse du serveur", "Comparer le design à celui des concurrents", "Vérifier l'orthographe des textes de l'interface", "Contrôler que le site s'affiche sur tous les navigateurs", "Analyser les statistiques de fréquentation", "Faire valider la maquette par le client", "Tester la sécurité de l'application"]
+    },
+    {
+      "intitule": "Que désigne le parcours utilisateur ?",
+      "bonne": "L'enchaînement des étapes que traverse un utilisateur pour atteindre son objectif",
+      "mauvaises": ["Le chemin d'accès des fichiers sur le serveur", "L'historique de navigation enregistré par le navigateur", "La liste des pages du site dans le menu", "L'ordre de chargement des ressources d'une page", "Le trajet des données entre le front et l'API", "La hiérarchie des dossiers du projet", "La succession des versions du produit", "Le circuit de validation interne d'une maquette", "L'ordre alphabétique des fonctionnalités"]
+    },
+    {
+      "intitule": "Que veut dire accessibilité dans un projet web ?",
+      "bonne": "Rendre le site utilisable par le plus grand nombre, y compris les personnes en situation de handicap",
+      "mauvaises": ["Rendre le site accessible depuis n'importe quel pays", "Permettre à tous de modifier le contenu du site", "Rendre le code source public", "Garantir que le site est en ligne en permanence", "Autoriser l'accès sans créer de compte", "Réduire le temps de chargement des pages", "Permettre l'accès depuis un mobile", "Ouvrir l'administration à toute l'équipe", "Rendre le site gratuit pour les utilisateurs"]
+    },
+    {
+      "intitule": "Qu'appelle-t-on l'architecture de l'information ?",
+      "bonne": "L'organisation et la hiérarchisation des contenus pour qu'on s'y retrouve facilement",
+      "mauvaises": ["Le schéma des serveurs qui hébergent le site", "La structure des tables de la base de données", "Le découpage du code en composants", "Le choix des technologies du projet", "Le format des fichiers échangés avec l'API", "La documentation technique du projet", "Le diagramme des classes de l'application", "La liste des dépendances installées", "L'ordre d'exécution des scripts de la page"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'un call to action ?",
+      "bonne": "Un élément qui incite l'utilisateur à effectuer une action précise",
+      "mauvaises": ["Un message d'erreur affiché après un formulaire", "Une notification envoyée par e-mail", "Un appel à une fonction dans le code", "Une requête envoyée à l'API", "Un raccourci clavier de l'application", "Un lien vers les mentions légales", "Un commentaire laissé par un utilisateur", "Une fenêtre de discussion avec le support", "Un appel téléphonique au service client"]
+    },
+    {
+      "intitule": "Pourquoi limite-t-on le nombre d'options dans un menu ?",
+      "bonne": "Pour réduire la charge mentale et faciliter le choix de l'utilisateur",
+      "mauvaises": ["Pour réduire le poids de la page", "Pour économiser de la bande passante", "Pour améliorer le référencement", "Pour limiter le nombre de requêtes à l'API", "Pour respecter une norme HTML", "Pour réduire le temps de compilation", "Pour diminuer le coût d'hébergement", "Pour simplifier le travail du développeur", "Pour éviter les conflits de noms de routes"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'un retour d'information dans une interface ?",
+      "bonne": "Une réaction visible de l'interface confirmant que l'action a été prise en compte",
+      "mauvaises": ["Un avis laissé par l'utilisateur sur le produit", "Un formulaire de contact du support", "Une note attribuée à l'application", "Un rapport d'erreur envoyé aux développeurs", "Un sondage de satisfaction", "Un commentaire dans le code source", "Un message envoyé par l'équipe aux utilisateurs", "Une statistique de fréquentation", "Un e-mail de confirmation d'inscription"]
+    },
+    {
+      "intitule": "Quelle est la différence entre UX et UI ?",
+      "bonne": "L'UX concerne l'expérience globale et le ressenti, l'UI concerne l'apparence visuelle de l'interface",
+      "mauvaises": ["L'UX concerne l'apparence visuelle, l'UI concerne le ressenti", "L'UX est le front-end, l'UI est le back-end", "L'UX concerne le mobile, l'UI le desktop", "L'UX est le code, l'UI est la maquette", "Ce sont deux mots pour désigner la même chose", "L'UX est le design, l'UI est le développement", "L'UX concerne le contenu, l'UI la performance", "L'UX est fait par le client, l'UI par l'agence", "L'UX concerne le web, l'UI les applications natives"]
+    },
+    {
+      "intitule": "Qu'appelle-t-on un point de friction ?",
+      "bonne": "Un endroit du parcours où l'utilisateur hésite, se trompe ou abandonne",
+      "mauvaises": ["Un bug technique qui bloque le chargement", "Un conflit entre deux développeurs", "Un désaccord avec le client sur le design", "Une erreur de serveur renvoyée par l'API", "Un ralentissement du réseau", "Un problème de compatibilité navigateur", "Une faute d'orthographe dans un texte", "Un élément mal aligné dans la page", "Un lien mort dans le menu"]
+    },
+    {
+      "intitule": "À quoi sert une maquette avant le développement ?",
+      "bonne": "À visualiser et valider le rendu de l'interface avant d'écrire le code",
+      "mauvaises": ["À mesurer les performances de l'application", "À générer automatiquement le code final", "À rédiger la documentation technique", "À tester la sécurité de l'application", "À définir le schéma de la base de données", "À planifier le déploiement du site", "À estimer le coût d'hébergement", "À former les utilisateurs finaux", "À rédiger le cahier des charges"]
+    },
+    {
+      "intitule": "Que cherche-t-on avec une démarche de design centré utilisateur ?",
+      "bonne": "Concevoir à partir des besoins réels des utilisateurs plutôt que des préférences de l'équipe",
+      "mauvaises": ["Concevoir à partir des préférences du directeur artistique", "Concevoir en copiant les sites concurrents", "Concevoir à partir des contraintes techniques", "Concevoir en suivant les tendances du moment", "Concevoir à partir du budget disponible", "Concevoir selon les habitudes de l'équipe", "Concevoir en fonction du temps disponible", "Concevoir à partir des outils déjà maîtrisés", "Concevoir selon les demandes du service commercial"]
+    },
+    {
+      "intitule": "Pourquoi un message d'erreur doit-il expliquer comment corriger le problème ?",
+      "bonne": "Pour que l'utilisateur puisse résoudre la situation sans rester bloqué",
+      "mauvaises": ["Pour respecter une obligation légale", "Pour améliorer le référencement du site", "Pour réduire le nombre de requêtes au serveur", "Pour faciliter le débogage par les développeurs", "Pour alimenter les statistiques d'erreurs", "Pour éviter les failles de sécurité", "Pour accélérer le chargement de la page", "Pour se conformer à la norme HTML", "Pour réduire la taille du code"]
+    }
+  ]
+}

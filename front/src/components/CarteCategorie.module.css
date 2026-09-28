@@ -1,0 +1,46 @@
+.carte {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  padding: 20px;
+  border-radius: var(--rayon-m);
+  background: var(--cat-soft);
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+  transition:
+    transform 0.18s ease,
+    filter 0.18s ease;
+}
+
+.carte:hover {
+  transform: translateY(-2px);
+  filter: brightness(0.975);
+}
+
+/* Le carré d'accent du design, qui accueille l'icône de l'API. */
+.pastille {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: var(--rayon-s);
+  background: var(--cat-accent);
+  color: var(--fond);
+}
+
+.nom {
+  color: var(--cat-ink);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.accroche {
+  color: var(--encre-discrete);
+  font-size: 13px;
+  line-height: 1.45;
+}

@@ -1,0 +1,62 @@
+.timer {
+  position: relative;
+  flex: none;
+  width: 62px;
+  height: 62px;
+}
+
+/* Un quart de tour à gauche : l'anneau se vide à partir de midi. */
+.anneau {
+  display: block;
+  width: 62px;
+  height: 62px;
+  transform: rotate(-90deg);
+}
+
+.piste {
+  stroke: var(--piste);
+}
+
+/* Une seconde de transition : l'anneau glisse entre deux battements. */
+.progression {
+  stroke: var(--cat-accent);
+  transition: stroke-dashoffset 1s linear;
+}
+
+.secondes {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cat-accent);
+  font-family: var(--police-mono);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+/* L'urgence passe par le mouvement : le rouge est réservé aux réponses. */
+.urgence {
+  animation: pulsation 1s ease-in-out infinite;
+}
+
+@keyframes pulsation {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+/* Sans animation, l'urgence se lit sur l'épaisseur du trait. */
+@media (prefers-reduced-motion: reduce) {
+  .urgence {
+    animation: none;
+  }
+
+  .urgence .progression {
+    stroke-width: 9;
+  }
+}

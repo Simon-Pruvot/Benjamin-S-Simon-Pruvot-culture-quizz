@@ -1,0 +1,47 @@
+.bloc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 36px 24px;
+  border-radius: var(--rayon-bloc);
+  background: var(--surface);
+  text-align: center;
+  animation: cqIn 0.35s ease both;
+}
+
+/* Monospace comme le compteur du quiz : information de service. */
+.etiquette {
+  color: var(--encre-tres-discrete);
+  font-family: var(--police-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.message {
+  max-width: 34ch;
+  color: var(--encre-discrete);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.icone {
+  color: var(--encre-tres-discrete);
+}
+
+.rotation {
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rotation {
+    animation: none;
+  }
+}

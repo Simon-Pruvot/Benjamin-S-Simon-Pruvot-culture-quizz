@@ -1,0 +1,85 @@
+{
+  "categorie": {
+    "nom": "UI",
+    "slug": "ui",
+    "icone": "Palette",
+    "couleur": "#EC4899"
+  },
+  "questions": [
+    {
+      "intitule": "Que signifie le sigle UI ?",
+      "bonne": "User Interface",
+      "mauvaises": ["User Integration", "Universal Interface", "User Interaction", "Unified Interface", "User Identity", "Ultimate Interface", "User Input", "Universal Integration", "User Index"]
+    },
+    {
+      "intitule": "Dans un code couleur hexadécimal comme #FF5733, que représentent les deux premiers caractères ?",
+      "bonne": "La quantité de rouge",
+      "mauvaises": ["La quantité de vert", "La quantité de bleu", "Le niveau de transparence", "La luminosité de la couleur", "La saturation de la couleur", "La teinte de la couleur", "Le contraste de la couleur", "L'épaisseur du trait", "La taille de la police"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'une police sans empattement ?",
+      "bonne": "Une police dont les lettres n'ont pas de petits traits terminaux",
+      "mauvaises": ["Une police dont les lettres sont toutes de la même largeur", "Une police qui n'accepte pas les accents", "Une police uniquement en majuscules", "Une police sans gras ni italique", "Une police dont les lettres sont reliées entre elles", "Une police conçue uniquement pour l'impression", "Une police libre de droits", "Une police qui ne supporte qu'une seule taille", "Une police sans espace entre les lettres"]
+    },
+    {
+      "intitule": "À quoi sert le contraste entre le texte et son fond ?",
+      "bonne": "À garantir que le texte reste lisible, y compris pour les personnes malvoyantes",
+      "mauvaises": ["À réduire le poids de la page", "À accélérer l'affichage du texte", "À améliorer le référencement", "À économiser la batterie de l'appareil", "À éviter les erreurs de compilation", "À permettre la sélection du texte", "À faciliter la traduction du contenu", "À réduire la consommation de données", "À autoriser le copier-coller"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'un design system ?",
+      "bonne": "Un ensemble de règles et de composants réutilisables qui garantit la cohérence d'un produit",
+      "mauvaises": ["Un logiciel de création graphique", "Le système d'exploitation du poste de travail", "Un framework CSS imposé par le navigateur", "Un outil de gestion de projet", "Le schéma de la base de données", "Un serveur dédié aux fichiers graphiques", "Un format d'image vectorielle", "Un plugin de navigateur", "Une méthode de compression des images"]
+    },
+    {
+      "intitule": "Quels sont les états visuels courants d'un bouton ?",
+      "bonne": "Normal, survolé, cliqué, désactivé",
+      "mauvaises": ["Ouvert, fermé, archivé, supprimé", "Public, privé, protégé, caché", "Chargé, en cours, terminé, annulé", "Petit, moyen, grand, adaptatif", "Connecté, déconnecté, invité, administrateur", "Local, distant, synchronisé, hors ligne", "Brouillon, publié, relu, validé", "Statique, dynamique, animé, figé", "Visible, invisible, transparent, opaque"]
+    },
+    {
+      "intitule": "Pourquoi limite-t-on le nombre de polices différentes dans un projet ?",
+      "bonne": "Pour préserver la cohérence visuelle et éviter un rendu désordonné",
+      "mauvaises": ["Parce que les navigateurs n'en acceptent que deux", "Parce que chaque police coûte une licence", "Parce que le HTML ne permet qu'une police par page", "Parce que le CSS limite les déclarations de police", "Parce que les polices ne sont pas compatibles entre elles", "Parce que cela empêche le référencement", "Parce que le serveur ne peut en stocker qu'un nombre limité", "Parce que les polices se remplacent mutuellement", "Parce que cela casse la validation du HTML"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'une image vectorielle comme le SVG ?",
+      "bonne": "Une image décrite par des formes, qui reste nette quelle que soit sa taille",
+      "mauvaises": ["Une image composée de pixels qui se dégrade en s'agrandissant", "Une image animée en boucle", "Une image compressée avec perte de qualité", "Une image limitée à 256 couleurs", "Une image stockée dans la base de données", "Une image générée par l'utilisateur", "Une image protégée par un mot de passe", "Une image affichée uniquement sur mobile", "Une image chargée depuis un serveur externe"]
+    },
+    {
+      "intitule": "À quoi sert une grille dans une maquette ?",
+      "bonne": "À aligner les éléments de façon régulière et structurer la mise en page",
+      "mauvaises": ["À afficher un tableau de données", "À dessiner les bordures des éléments", "À définir les couleurs de la page", "À découper l'image de fond", "À organiser les fichiers du projet", "À générer le code HTML automatiquement", "À mesurer la performance de la page", "À définir les animations de la page", "À numéroter les sections du site"]
+    },
+    {
+      "intitule": "Que désigne la hiérarchie visuelle ?",
+      "bonne": "L'organisation des éléments par ordre d'importance, pour guider le regard",
+      "mauvaises": ["L'ordre des balises dans le code HTML", "La structure des dossiers du projet", "L'ordre de chargement des images", "L'organisation des rôles dans l'équipe", "La liste des pages dans le menu", "L'ordre des règles dans le fichier CSS", "La hiérarchie des classes en programmation", "L'ordre d'exécution des scripts", "La structure des tables de la base"]
+    },
+    {
+      "intitule": "Qu'est-ce que l'espace blanc en design ?",
+      "bonne": "L'espace vide laissé autour des éléments pour aérer la mise en page",
+      "mauvaises": ["Une zone de la page obligatoirement de couleur blanche", "Un caractère invisible dans le code", "Un espace réservé à la publicité", "Une marge imposée par le navigateur", "Un bloc vide en attente de contenu", "Un espace de stockage sur le serveur", "Une zone non cliquable de l'écran", "Un fond blanc obligatoire pour l'impression", "Un espace réservé aux mentions légales"]
+    },
+    {
+      "intitule": "Pourquoi une interface doit-elle rester cohérente d'une page à l'autre ?",
+      "bonne": "Pour que l'utilisateur reconnaisse les éléments sans avoir à réapprendre à chaque page",
+      "mauvaises": ["Pour réduire le nombre de fichiers CSS", "Pour améliorer la vitesse du serveur", "Pour respecter une norme obligatoire", "Pour faciliter la sauvegarde du site", "Pour limiter le nombre de composants", "Pour réduire la taille de la base de données", "Pour éviter les conflits de noms de classes", "Pour accélérer la compilation du projet", "Pour diminuer le coût d'hébergement"]
+    },
+    {
+      "intitule": "Que sont les couleurs primaire et secondaire d'une charte graphique ?",
+      "bonne": "La couleur dominante de la marque et une couleur d'appoint qui l'accompagne",
+      "mauvaises": ["Les couleurs du texte et du fond", "Les couleurs obligatoires du HTML", "Les couleurs du logo et du favicon", "Les couleurs de succès et d'erreur", "Les couleurs claires et sombres du thème", "Les couleurs de l'en-tête et du pied de page", "Les couleurs avant et après un clic", "Les couleurs utilisées à l'écran et à l'impression", "Les couleurs les plus et les moins utilisées"]
+    },
+    {
+      "intitule": "Pourquoi ne faut-il pas transmettre une information uniquement par la couleur ?",
+      "bonne": "Parce que les personnes daltoniennes ne la percevraient pas",
+      "mauvaises": ["Parce que les couleurs ralentissent l'affichage", "Parce que le CSS ne gère pas toutes les couleurs", "Parce que les couleurs changent selon le navigateur", "Parce que cela augmente le poids de la page", "Parce que les couleurs ne s'impriment pas", "Parce que le HTML l'interdit", "Parce que les couleurs ne sont pas traduisibles", "Parce que cela nuit au référencement", "Parce que les écrans n'affichent pas toutes les couleurs"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'un composant réutilisable dans une interface ?",
+      "bonne": "Un élément conçu une seule fois et utilisé à plusieurs endroits de l'application",
+      "mauvaises": ["Un élément qui change d'apparence à chaque affichage", "Un fichier image partagé entre plusieurs projets", "Un script exécuté à chaque chargement de page", "Une page dupliquée plusieurs fois dans le site", "Un style appliqué à toute la page", "Une bibliothèque téléchargée depuis Internet", "Un fichier de configuration du projet", "Une sauvegarde automatique du design", "Un modèle de base de données partagé"]
+    }
+  ]
+}

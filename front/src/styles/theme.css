@@ -1,0 +1,93 @@
+/* Charte graphique. Seul fichier du projet qui écrit une couleur. */
+
+:root {
+  --fond: oklch(0.985 0.008 85);
+  --encre: oklch(0.27 0.014 80);
+
+  /* Surfaces neutres, de la plus claire à la plus appuyée. */
+  --surface: oklch(0.965 0.009 85);
+  --surface-douce: oklch(0.955 0.01 85);
+  --surface-appuyee: oklch(0.93 0.012 85);
+  --badge-neutre: oklch(0.91 0.012 85);
+  --piste: oklch(0.9 0.012 85);
+
+  /* Textes secondaires, du plus contrasté au plus discret. */
+  --encre-forte: oklch(0.3 0.014 80);
+  --encre-moyenne: oklch(0.35 0.012 80);
+  --encre-douce: oklch(0.45 0.012 80);
+  --encre-discrete: oklch(0.5 0.012 80);
+  --encre-tres-discrete: oklch(0.55 0.012 80);
+
+  /* Réservés à la bonne et à la mauvaise réponse. Nulle part ailleurs. */
+  --vert-fond: oklch(0.93 0.06 150);
+  --vert-encre: oklch(0.42 0.1 150);
+  --vert-plein: oklch(0.68 0.13 150);
+  --sur-vert: oklch(0.99 0.01 150);
+
+  --rouge-fond: oklch(0.94 0.055 28);
+  --rouge-encre: oklch(0.47 0.14 28);
+  --rouge-plein: oklch(0.66 0.16 28);
+  --sur-rouge: oklch(0.99 0.01 28);
+
+  /* Temps écoulé : la question n'a pas été jouée, donc ni vert ni rouge. */
+  --neutre-fond: oklch(0.94 0.02 85);
+  --neutre-encre: oklch(0.4 0.02 80);
+
+  /* Repli si la base renvoie un slug inconnu du front. */
+  --cat-accent: oklch(0.7 0.02 85);
+  --cat-soft: oklch(0.96 0.01 85);
+  --cat-ink: oklch(0.35 0.014 80);
+
+  --police-texte: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --police-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --rayon-s: 8px;
+  --rayon-m: 12px;
+  --rayon-chip: 10px;
+  --rayon-bouton: 11px;
+  --rayon-bloc: 14px;
+  --rayon-l: 16px;
+  --rayon-pilule: 999px;
+
+  --cible-tactile: 44px;
+}
+
+/*
+ * Une teinte par catégorie, même recette pour les cinq :
+ *   accent oklch(0.72 0.12 H) · soft oklch(0.95 0.045 H) · ink oklch(0.42 0.09 H)
+ *
+ * Les composants ne lisent que --cat-accent / --cat-soft / --cat-ink.
+ * C'est data-categorie, posé sur un conteneur, qui choisit la teinte.
+ *
+ * Teintes de la maquette, sauf "responsive" : 155 tombait à cinq degrés
+ * du vert de bonne réponse, donc 195.
+ */
+[data-categorie='ui'] {
+  --cat-accent: oklch(0.72 0.12 20);
+  --cat-soft: oklch(0.95 0.045 20);
+  --cat-ink: oklch(0.42 0.09 20);
+}
+
+[data-categorie='ux'] {
+  --cat-accent: oklch(0.72 0.12 90);
+  --cat-soft: oklch(0.95 0.045 90);
+  --cat-ink: oklch(0.42 0.09 90);
+}
+
+[data-categorie='responsive'] {
+  --cat-accent: oklch(0.72 0.12 195);
+  --cat-soft: oklch(0.95 0.045 195);
+  --cat-ink: oklch(0.42 0.09 195);
+}
+
+[data-categorie='react'] {
+  --cat-accent: oklch(0.72 0.12 225);
+  --cat-soft: oklch(0.95 0.045 225);
+  --cat-ink: oklch(0.42 0.09 225);
+}
+
+[data-categorie='typescript'] {
+  --cat-accent: oklch(0.72 0.12 290);
+  --cat-soft: oklch(0.95 0.045 290);
+  --cat-ink: oklch(0.42 0.09 290);
+}

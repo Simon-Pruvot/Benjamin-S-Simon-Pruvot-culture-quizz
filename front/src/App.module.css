@@ -1,0 +1,11 @@
+/* Gabarit commun aux quatre écrans. */
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  /* dvh suit la barre d'adresse mobile. */
+  min-height: 100dvh;
+  padding: 26px 18px 60px;
+}

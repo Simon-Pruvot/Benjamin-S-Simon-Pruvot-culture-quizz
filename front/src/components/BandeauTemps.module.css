@@ -1,0 +1,29 @@
+.bandeau {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 16px 18px;
+  border-radius: var(--rayon-bloc);
+  background: var(--surface);
+}
+
+.libelles {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+/* Monospace en capitales : l'avancement se lit comme une donnée. */
+.avancement {
+  color: var(--encre-tres-discrete);
+  font-family: var(--police-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.score {
+  color: var(--encre-douce);
+  font-size: 14px;
+}

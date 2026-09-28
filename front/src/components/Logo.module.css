@@ -1,0 +1,6 @@
+/* Le PNG porte déjà ses coins arrondis et son fond transparent. */
+.logo {
+  display: block;
+  flex: none;
+  user-select: none;
+}

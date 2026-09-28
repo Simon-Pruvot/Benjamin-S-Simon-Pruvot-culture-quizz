@@ -1,0 +1,85 @@
+{
+  "categorie": {
+    "nom": "Responsive",
+    "slug": "responsive",
+    "icone": "Smartphone",
+    "couleur": "#8B5CF6"
+  },
+  "questions": [
+    {
+      "intitule": "Que veut dire concevoir en mobile first ?",
+      "bonne": "Concevoir d'abord pour les petits écrans, puis élargir vers les grands",
+      "mauvaises": ["Concevoir d'abord pour ordinateur puis réduire", "Développer d'abord une application mobile native", "Donner la priorité aux utilisateurs mobiles dans le support", "Publier le site d'abord sur les stores mobiles", "Tester le site d'abord sur téléphone", "Afficher un site complètement différent sur mobile", "Bloquer l'accès depuis un ordinateur", "Charger les images en priorité sur mobile", "Optimiser d'abord la batterie du téléphone"]
+    },
+    {
+      "intitule": "Quelle règle CSS permet d'appliquer des styles selon la largeur de l'écran ?",
+      "bonne": "@media",
+      "mauvaises": ["@screen", "@import", "@device", "@viewport", "@responsive", "@width", "@layout", "@breakpoint", "@display"]
+    },
+    {
+      "intitule": "En mobile first, quelle condition utilise-t-on dans les media queries ?",
+      "bonne": "min-width",
+      "mauvaises": ["max-width", "min-height", "max-height", "min-device-width", "max-resolution", "min-aspect-ratio", "max-zoom", "min-size", "max-scale"]
+    },
+    {
+      "intitule": "À quoi sert la balise meta viewport ?",
+      "bonne": "À indiquer au navigateur mobile d'adapter la largeur de la page à celle de l'écran",
+      "mauvaises": ["À définir la couleur de fond de la page", "À déclarer l'encodage des caractères", "À préciser la langue du document", "À charger la feuille de style", "À définir le titre affiché dans l'onglet", "À activer le mode plein écran", "À définir l'image de partage sur les réseaux", "À déclarer le favicon du site", "À indiquer l'auteur de la page"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'un breakpoint en responsive ?",
+      "bonne": "Une largeur d'écran à partir de laquelle la mise en page change",
+      "mauvaises": ["Un point d'arrêt placé dans le code pour le déboguer", "Une erreur qui interrompt le chargement", "Une limite de poids pour les images", "Un moment où le serveur cesse de répondre", "Une pause dans une animation", "Une coupure de ligne dans un paragraphe", "Une limite du nombre de requêtes à l'API", "Un point de sauvegarde dans le code", "Une frontière entre deux sections de page"]
+    },
+    {
+      "intitule": "Que fait la propriété display: flex ?",
+      "bonne": "Elle place les éléments enfants sur une ligne ou une colonne en répartissant l'espace",
+      "mauvaises": ["Elle rend les images redimensionnables", "Elle masque les éléments trop larges", "Elle empile les éléments les uns sur les autres", "Elle centre automatiquement tout le contenu de la page", "Elle convertit les pixels en pourcentages", "Elle applique une animation aux enfants", "Elle fixe l'élément en haut de la page", "Elle rend le texte adaptatif", "Elle désactive le défilement horizontal"]
+    },
+    {
+      "intitule": "Pourquoi préfère-t-on des unités relatives comme le pourcentage ou le rem aux pixels ?",
+      "bonne": "Parce qu'elles s'adaptent à la taille de l'écran et aux réglages de l'utilisateur",
+      "mauvaises": ["Parce que les pixels ne sont pas supportés par tous les navigateurs", "Parce qu'elles réduisent le poids du fichier CSS", "Parce qu'elles accélèrent l'affichage de la page", "Parce que le CSS interdit les pixels", "Parce qu'elles améliorent le référencement", "Parce qu'elles évitent les erreurs de syntaxe", "Parce qu'elles consomment moins de mémoire", "Parce qu'elles sont plus précises que les pixels", "Parce qu'elles fonctionnent hors connexion"]
+    },
+    {
+      "intitule": "Quelle propriété CSS rend couramment une image adaptative ?",
+      "bonne": "max-width: 100%",
+      "mauvaises": ["position: absolute", "display: none", "overflow: hidden", "float: left", "z-index: 10", "visibility: hidden", "text-align: center", "border: none", "opacity: 1"]
+    },
+    {
+      "intitule": "Quelle largeur d'écran prend-on couramment comme référence mobile ?",
+      "bonne": "375 px",
+      "mauvaises": ["1024 px", "1280 px", "1920 px", "800 px", "640 px", "1440 px", "240 px", "2560 px", "960 px"]
+    },
+    {
+      "intitule": "Qu'apporte display: grid par rapport à flexbox ?",
+      "bonne": "Organiser la mise en page en lignes et en colonnes simultanément",
+      "mauvaises": ["Organiser les éléments uniquement sur une seule ligne", "Appliquer des animations aux éléments", "Charger les images plus rapidement", "Rendre les polices adaptatives", "Superposer les éléments automatiquement", "Trier les éléments par ordre alphabétique", "Masquer les éléments hors écran", "Générer automatiquement les media queries", "Convertir la page en PDF"]
+    },
+    {
+      "intitule": "Pourquoi une zone cliquable doit-elle être assez grande sur mobile ?",
+      "bonne": "Parce qu'on tape avec le doigt, beaucoup moins précis qu'un curseur de souris",
+      "mauvaises": ["Parce que les écrans mobiles ont moins de pixels", "Parce que le CSS impose une taille minimale", "Parce que cela accélère le chargement", "Parce que les navigateurs mobiles ignorent les petits éléments", "Parce que cela améliore le référencement", "Parce que les petits boutons ne s'affichent pas", "Parce que cela réduit la consommation de données", "Parce que cela évite les erreurs JavaScript", "Parce que les mobiles limitent le nombre de boutons"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'un défilement horizontal indésirable ?",
+      "bonne": "Un contenu plus large que l'écran qui oblige l'utilisateur à faire défiler sur le côté",
+      "mauvaises": ["Un carrousel d'images qui défile automatiquement", "Un menu qui s'ouvre sur le côté", "Une animation de transition entre deux pages", "Un tableau trié par colonnes", "Une barre de progression qui avance", "Un texte qui défile en boucle", "Un bandeau publicitaire animé", "Une galerie d'images en plein écran", "Un menu déroulant trop long"]
+    },
+    {
+      "intitule": "Sur mobile, en quoi se transforme généralement un menu de navigation horizontal ?",
+      "bonne": "En un menu compact qui s'ouvre au clic, souvent appelé menu burger",
+      "mauvaises": ["En un menu supprimé complètement du site", "En un menu affiché en tout petit sur une seule ligne", "En un menu déplacé uniquement dans le pied de page", "En un moteur de recherche qui remplace le menu", "En un menu affiché dans une nouvelle fenêtre", "En une liste de raccourcis clavier", "En un menu accessible seulement après connexion", "En un fil d'Ariane en haut de page", "En un menu affiché une seule fois à la première visite"]
+    },
+    {
+      "intitule": "Pourquoi ne peut-on pas compter sur l'effet de survol sur mobile ?",
+      "bonne": "Parce qu'un écran tactile n'a pas de curseur qui survole avant de cliquer",
+      "mauvaises": ["Parce que le CSS désactive le survol sur mobile", "Parce que les mobiles n'exécutent pas de CSS", "Parce que cela consomme trop de batterie", "Parce que les navigateurs mobiles sont plus anciens", "Parce que le survol ralentit l'affichage", "Parce que le survol n'existe qu'en JavaScript", "Parce que les écrans tactiles ne détectent pas le doigt", "Parce que le survol est réservé aux liens", "Parce que les mobiles bloquent les animations"]
+    },
+    {
+      "intitule": "Que signifie qu'un site est responsive ?",
+      "bonne": "Le site adapte sa mise en page à la taille de l'écran qui l'affiche",
+      "mauvaises": ["Le site répond rapidement aux requêtes", "Le site fonctionne sans connexion Internet", "Le site s'adapte à la langue du visiteur", "Le site répond automatiquement aux messages", "Le site se met à jour tout seul", "Le site fonctionne sur tous les systèmes d'exploitation", "Le site change de couleur selon l'heure", "Le site enregistre les préférences du visiteur", "Le site est accessible depuis n'importe quel pays"]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "categorie": {
+    "nom": "TypeScript",
+    "slug": "typescript",
+    "icone": "Braces",
+    "couleur": "#3178C6"
+  },
+  "questions": [
+    {
+      "intitule": "Qu'apporte TypeScript par rapport à JavaScript ?",
+      "bonne": "Un typage statique vérifié avant l'exécution",
+      "mauvaises": ["Une exécution plus rapide du code", "Une syntaxe entièrement différente", "Un moteur de rendu intégré", "Une base de données intégrée", "Un serveur web intégré", "Une gestion automatique de la mémoire", "Un système de modules exclusif", "Une compilation vers le langage machine", "Un framework d'interface intégré"]
+    },
+    {
+      "intitule": "En quoi le code TypeScript est-il transformé pour s'exécuter dans un navigateur ?",
+      "bonne": "En JavaScript",
+      "mauvaises": ["En WebAssembly", "En code machine", "En HTML", "En JSON", "En Python", "En bytecode Java", "En C++", "En XML", "En CSS"]
+    },
+    {
+      "intitule": "Comment déclare-t-on une variable de type chaîne de caractères ?",
+      "bonne": "let nom: string",
+      "mauvaises": ["let nom: char", "let nom: text", "let nom: str", "let nom: varchar", "let string nom", "let nom <- string", "let nom := string", "let nom is string", "let nom: chaine"]
+    },
+    {
+      "intitule": "À quoi sert le mot-clé interface en TypeScript ?",
+      "bonne": "À décrire la forme que doit avoir un objet",
+      "mauvaises": ["À créer une page de l'interface utilisateur", "À se connecter à une API externe", "À définir un composant React", "À importer un module", "À déclarer une fonction asynchrone", "À définir une feuille de style", "À déclarer une variable globale", "À configurer le compilateur", "À créer une connexion à la base de données"]
+    },
+    {
+      "intitule": "Que regroupe le type number en TypeScript ?",
+      "bonne": "Les entiers et les nombres à virgule",
+      "mauvaises": ["Uniquement les entiers", "Uniquement les nombres à virgule", "Uniquement les nombres positifs", "Uniquement les nombres entre 0 et 100", "Uniquement les numéros de téléphone", "Uniquement les identifiants uniques", "Uniquement les nombres écrits en toutes lettres", "Uniquement les nombres binaires", "Uniquement les entiers positifs"]
+    },
+    {
+      "intitule": "Que signifie le point d'interrogation dans une déclaration comme age?: number ?",
+      "bonne": "La propriété est optionnelle",
+      "mauvaises": ["La propriété est obligatoire", "La propriété est en lecture seule", "La propriété est privée", "La propriété peut changer de type", "La propriété est dépréciée", "La propriété est calculée automatiquement", "La propriété est de type inconnu", "La propriété accepte plusieurs valeurs", "La propriété est héritée"]
+    },
+    {
+      "intitule": "Qu'est-ce qu'un type union comme string | number ?",
+      "bonne": "Un type qui accepte l'une ou l'autre de ces valeurs",
+      "mauvaises": ["Un type qui exige les deux valeurs en même temps", "Un type qui convertit automatiquement l'un en l'autre", "Un type qui additionne les deux valeurs", "Un type réservé aux tableaux", "Un type qui ne fonctionne que dans les interfaces", "Un type qui compare deux valeurs", "Un type qui choisit la valeur la plus courte", "Un type interdit dans les fonctions", "Un type qui hérite des deux à la fois"]
+    },
+    {
+      "intitule": "Quel est le rôle du fichier tsconfig.json ?",
+      "bonne": "Il configure le comportement du compilateur TypeScript",
+      "mauvaises": ["Il liste les dépendances du projet", "Il contient les variables d'environnement", "Il décrit les routes de l'application", "Il stocke tous les types du projet", "Il configure le serveur de développement", "Il définit les scripts de lancement", "Il contient la configuration de la base de données", "Il liste les fichiers à ignorer par Git", "Il décrit les composants du projet"]
+    },
+    {
+      "intitule": "Quelle extension porte un fichier TypeScript contenant du JSX ?",
+      "bonne": ".tsx",
+      "mauvaises": [".jsx", ".ts", ".js", ".tjs", ".jst", ".tsjsx", ".reactts", ".txs", ".tsj"]
+    },
+    {
+      "intitule": "Que se passe-t-il si on affecte un nombre à une variable déclarée de type string ?",
+      "bonne": "Le compilateur signale une erreur avant l'exécution",
+      "mauvaises": ["Le nombre est converti automatiquement en chaîne", "La variable change de type automatiquement", "L'erreur n'apparaît qu'à l'exécution", "La valeur devient undefined", "Le programme s'arrête immédiatement", "La variable est réinitialisée à zéro", "TypeScript ignore silencieusement l'affectation", "Le navigateur affiche une alerte", "La variable devient de type any"]
+    },
+    {
+      "intitule": "À quoi sert le type any ?",
+      "bonne": "À désactiver la vérification de type sur une valeur",
+      "mauvaises": ["À accepter uniquement les objets", "À déclarer une variable globale", "À rendre une propriété optionnelle", "À créer un type générique", "À importer un type depuis un autre fichier", "À déclarer une constante", "À autoriser uniquement les tableaux", "À convertir une valeur en chaîne", "À marquer une variable comme non utilisée"]
+    },
+    {
+      "intitule": "Comment déclare-t-on un tableau de chaînes de caractères ?",
+      "bonne": "string[]",
+      "mauvaises": ["string{}", "list<string>", "strings[]", "array[string]", "{string}", "string()", "str[]", "tableau<string>", "[]string"]
+    },
+    {
+      "intitule": "Que sont les génériques en TypeScript ?",
+      "bonne": "Un moyen d'écrire du code qui fonctionne avec plusieurs types sans les fixer à l'avance",
+      "mauvaises": ["Des types créés automatiquement par le compilateur", "Des types communs à tous les projets TypeScript", "Des variables accessibles partout dans le code", "Des fonctions sans nom", "Des types importés depuis une bibliothèque externe", "Des classes qui ne peuvent pas être instanciées", "Des types qui changent pendant l'exécution", "Des propriétés partagées entre tous les objets", "Des modules chargés à la demande"]
+    },
+    {
+      "intitule": "Pourquoi typer les props d'un composant React ?",
+      "bonne": "Pour que l'éditeur et le compilateur signalent immédiatement une prop manquante ou mal typée",
+      "mauvaises": ["Pour accélérer le rendu du composant", "Pour réduire la taille du fichier compilé", "Pour que React génère la documentation", "Pour permettre au composant d'être réutilisé", "Pour éviter de déclarer les props dans le parent", "Pour améliorer le référencement de la page", "Pour réduire le nombre de re-rendus", "Pour permettre l'affichage sur mobile", "Pour que les props soient sauvegardées automatiquement"]
+    },
+    {
+      "intitule": "Que fait une déclaration comme type Id = string ?",
+      "bonne": "Elle crée un alias, un nom réutilisable pour un type existant",
+      "mauvaises": ["Elle déclare une variable nommée Id", "Elle convertit une valeur en chaîne", "Elle crée une classe nommée Id", "Elle importe un type depuis un module", "Elle déclare une constante globale", "Elle définit une fonction de validation", "Elle crée obligatoirement une interface", "Elle déclare un type qui ne peut plus changer", "Elle enregistre le type dans le compilateur"]
+    }
+  ]
+}
